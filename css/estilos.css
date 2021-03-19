@@ -1,0 +1,26 @@
+table { /*aqui criamos o estilo para a tabela em si*/
+  width: 75%; /*com isto definimos o tamanho que queremos que a tabela tenha*/
+  text-align: center; /*com isto definimos que queremos que o texto fique ao centro*/
+  margin-left: auto;
+  margin-right: auto;
+}
+
+table, th, td {
+  border: 2px solid black; /*com isto definimos as bordas da tabela, do cabeçalho e das células*/
+}
+
+th { /*aqui criamos o estilo para o cabeçalho em si*/
+  font-family: OCR A Std, monospace; /*com isto definimos que tipo de letra queremos no cabeçalho*/
+  text-shadow: 2px 2px red; /*com isto definimos uma sombra para as letras*/
+  text-align: center; /*com isto definimos que queremos que o texto fique ao centro*/
+  padding-top: 10px; /*com isto definimos a distância que está entre o que está escrito e o "topo" da célula*/
+  padding-bottom: 10px; /*com isto definimos a distância que está entre o que está escrito e o limite de baixo da célula*/
+  background-color: #cf2362; /*com isto definimos a cor do fundo das células de cima/cabeçalho*/
+  color: white; /*com isto definimos a cor das letras*/
+}
+td { /*aqui criamos o estilo para as células em si*/
+  font-family: Apple Chancery, cursive;
+  padding-top: 5px;
+  padding-bottom: 5px; 
+  width: 25%; /*com isto definimos o tamanho que queremos que cada célula tenha em comprimento*/
+}
